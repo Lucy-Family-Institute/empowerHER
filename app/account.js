@@ -1,0 +1,28 @@
+import { Text, View, StyleSheet } from "react-native";
+
+export default function Account() {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Account</Text>
+      <Text style={styles.subtitle}>Manage your profile and settings</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#f0f8ff",
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
+  subtitle: {
+    fontSize: 16,
+    color: "#666",
+  },
+});
