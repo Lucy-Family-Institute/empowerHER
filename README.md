@@ -1,8 +1,10 @@
-# Welcome to your Expo app 👋
+# Welcome to EmpowerHER 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Before you Get Started:
+
+PLEASE READ ALL INSTRUCTIONS FIRST
 
 1. Create a new folder on your computer to house this project. I named mine 'empowerHER'
 
@@ -23,13 +25,13 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    git checkout -b <new branch name>
    ```
 
-1. Install dependencies
+6. Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+7. Start the app
 
    ```bash
    npm start
@@ -44,3 +46,17 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
+8. Whenever you are ready to save your code and push it to the main branch, run these commands:
+   ```bash
+   git add .
+   ```
+   ```bash
+   git commit -m "write yourself a helpful commit comment that describes what you have built"
+   ```
+   ```bash
+   git push --set-upstream origin <branch name>
+   ```
+   YOU ONLY HAVE TO RUN THAT LAST COMMAND ONCE. It is to connect your branch to the project. After the first time, you just have to do:
+   ```bash
+   git push
+   ```
