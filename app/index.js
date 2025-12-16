@@ -1,15 +1,8 @@
 import { Text, View } from "react-native";
+import RootNavigator from "../navigation/RootNavigator.js";
 
-export default function Index() {
+export default function Home() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Hello. This is the Index page or Welcome Screen.</Text>
-    </View>
+    <RootNavigator />
   );
 }
