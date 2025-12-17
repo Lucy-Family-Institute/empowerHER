@@ -56,7 +56,18 @@ You can start developing by editing the files inside the **app** directory. This
    ```bash
    git push --set-upstream origin <branch name>
    ```
-   YOU ONLY HAVE TO RUN THAT LAST COMMAND ONCE. It is to connect your branch to the project. After the first time, you just have to do:
+   YOU ONLY HAVE TO RUN THAT LAST COMMAND ONCE. It connects your new branch to the project. After the first time, you just have to:
    ```bash
    git push
    ```
+   Then go to github and create a pull request. Best practice is to have someone else review your code, keep that in mind.
+
+   I have created four pages for you: Home, Calendar, Account, and WhatsApp pages. You can add or remove pages as you like, but when doing so, be sure to make the necessary changes in RootNavigator.js and layout.js. If you'd like to change the style of the navigation bar that can be done in RootNavigator.js. If you'd like to change any colors, fonts, layouts, etc. that can be done in two ways:
+      a. you can add your CSS into each file in the 'stylesheet' section (this is how it's currently done). This way is nice if you only need minimal or diffent styling on each page.
+      b. you can make one stylesheet page and call to it from every page. This version is nice if you have a lot of the same kind of styling for all pages.
+   *If the message above is confusing, just know you can add CSS style to each page where it says const styles = StyleSheet.create*
+
+   If you need help on style, here is a really good resource: https://reactnative.dev/docs/style
+   If you need help on Javascript in general, here is w3schools: https://www.w3schools.com/js/default.asp They also have info on CSS and HTML which will be helpful to look at. Don't look at the JSX stuff, that's different.
+
+   Whenever looking for help online, I recommend googling the phrase 'react native expo go app' and then the problem you're trying to solve. This helps google source better links and videos.
