@@ -4,7 +4,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Before you Get Started:
 
-PLEASE READ ALL INSTRUCTIONS FIRST
+### **PLEASE READ ALL INSTRUCTIONS FIRST**
 
 1. Create a new folder on your computer to house this project. I named mine 'empowerHER'
 
@@ -52,7 +52,7 @@ You can start developing by editing the files inside the **app** directory. This
    git commit -m "write yourself a helpful commit comment that describes what you have built"
    git push --set-upstream origin <branch name>
    ```
-   YOU ONLY HAVE TO RUN THAT LAST COMMAND ONCE. It connects your new branch to the project. After the first time, you just have to:
+   *You only have to run the '--set-upstream' command once*. It connects your new branch to the project. After the first time, you just have to:
    ```
    git push
    ```
@@ -66,4 +66,4 @@ You can start developing by editing the files inside the **app** directory. This
    If you need help on style, here is a really good resource: https://reactnative.dev/docs/style
    If you need help on Javascript in general, here is w3schools: https://www.w3schools.com/js/default.asp They also have info on CSS and HTML which will be helpful to look at. Don't look at the JSX stuff, that's different.
 
-   Whenever looking for help online, I recommend googling the phrase 'react native expo go app' and then the problem you're trying to solve. This helps google source better links and videos.
+   Whenever looking for help online, I recommend googling the phrase **react native expo go app** and then the problem you're trying to solve. This helps google source better links and videos.
